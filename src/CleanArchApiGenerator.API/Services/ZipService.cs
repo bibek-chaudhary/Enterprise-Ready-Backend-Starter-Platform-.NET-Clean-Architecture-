@@ -1,14 +1,8 @@
-﻿using CleanArchApiGenerator.Application.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.IO.Compression;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.IO.Compression;
 
-namespace CleanArchApiGenerator.Infrastructure.Services
+namespace CleanArchApiGenerator.API.Services
 {
-    public class ZipService : IZipService
+    public class ZipService
     {
         public string CreateZip(string sourcePath, string projectName)
         {
